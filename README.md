@@ -1,41 +1,54 @@
-# React JS Resume Web App Template      
-![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true "ReactJS Resume Website Template")
-### <a href="https://react-resume-template.herokuapp.com/">LIVE DEMO</a> 
-### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project 
-### 😁 A much improved V2 is on the way 🎉
+# Final Assignment for CS 1501 Spring 2021
+
+### [LIVE DEMO](https://react-resume-template.herokuapp.com)
 
 ## Description
-This is a ReactJS based personal resume website template. I have built this by following a Udemy course (credits below) and by beginning with the Ceevee template by Styleshout (credits also below), and breaking up their template into isolated React components. Data is fed directly from a JSON File. This means that in its final form, it can be customized and used by anybody simply by filling in their own personal info into the JSON file and the changes will be dynamically fed into the site. If you would like to use this template for your own personal resume website, read on to learn how to build your own copy.
+This is a ReactJS-based personal website template created by Tim Baker - [original code here](https://github.com/tbakerx/react-resume-template). No JavaScript coding is required. All you have to do is update values in `/src/resumeData.json`. Scroll down to **Make It Your Own** for more details!
 
-## Make it Your Own!
-### 1. Make sure you have what you need
-To build this website, you will need to have Node >=6 downloaded and installed on your machine. If you don't already have it, you can get it <a href="https://nodejs.org/en/download/">HERE</a>
-### 2. Build a Create-React-App
-Next, you will build the initial application using a handy tool called Create-React-App. This allows you to get up and running with a React app without the headache of setting up build-tool configurations. Go <a href="https://reactjs.org/docs/installation.html">HERE</a> to get started.
-When the app building is finished run `cd yourappname` and run `npm start` to test it out.
-Hit ctrl+c in the terminal when you want to stop the server that the above command starts.
-For this project we will also need to install JQuery and ReactGA, do this by running `npm install jquery --save` and `npm install react-ga --save` in your terminal while inside your project folder. YOU MUST RUN THESE COMMANDS.
-### 3. Download the template
-Once you have a React app up and running by following the steps in the above link, download my code by hitting the green "clone or download" button above and hit download zip. All you will have to do now is replace the "public" and "src" folders of your newly built app with mine that you just downloaded. If you run `npm start` now, you should see that your app renders the same as the one at the live demo link above.
-### 4. Replace images and fonts
-Next, you will want to replace the images, and fonts if you like, with your own. All you have to do is replace the images at public/images/header-background.jpg, public/images/testimonials-bg.jpg and public/favicon.ico with your own. <em>YOU MUST KEEP THE SAME NAMES ON THE IMAGES.</em>  
-### 5. Fill in your personal info
-To populate the website with all of your own data, open the public/resumeData.json file and simply replace the data in there with your own. Images for the porfolio section are to be put in the public/images/portfolio folder.
-### 6. Make any styling changes you would like
-Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling changes, feel free!
-### 7. Enjoy your new Resume Website
-When you're all done, run `npm start` again and you'll see your new personal resume website! Congratulations!
+## Make It Your Own
+#### 1. Set up your environment
+1. Download [Node.js](https://nodejs.org/en/download/) to run this on your local computer.
+2. Click `Fork` in the top right of the screen and fork your own copy of this repository.
+2. With your own repository open (verify that it says your username in the top left), click the green `Code` button in the top right and open in GitHub Desktop.
+3. In GitHub Desktop, open this repository in Visual Studio Code.
+4. Once in Visual Studio Code, open the Terminal and enter `npm --version`.
+  * If a number similiar to `7.0.8` appears, you're ready for the next steps.
+  * If you receive an error similar to `command not found`, make sure that you have installed [Node.js](https://nodejs.org/en/download/)
+5.  In the terminal, run `npm install` to run all the dependencies needed to run this project. This may take a few minutes.
+6. To view this project on your local computer in development mode, run `npm start` and it should open in `localhost:3000`.
 
+#### 2. Editing the Information
+1. Open `src/resumeData.json` and fill it in your information
 
-## Credits
-##### Udemy Course
-<a href="https://www.udemy.com/projects-in-reactjs-the-complete-react-learning-course/learn/v4/overview">Projects in ReactJS: The Complete React Learning Course by Eduonix</a>
+**Name** - Enter your name, first or first and last, depending on your comfort level
 
-#### HTML Design Template
-<a href="https://www.styleshout.com/free-templates/ceevee/">Ceevee Template by Styleshout</a>
+**Description** - This is the subtext on your header
 
-##### Header photo credit
-<a href="https://unsplash.com/@mischievous_penguins?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Casey Horner</a>
+**Image** - Leave the file name the same, but to change it, simply replace the `public/images/profilepic.jpg` with your own image of the same name (rename it to say `profilepic.jpg`)
 
-##### Testimonial photo credit
-<a href="https://unsplash.com/@samuelzeller?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Samuel Zeller</a>
+**Bio** - This is your about me section!
+
+**Contact Message** - Write an inviting message letting visitors know the best way to get contact.
+
+**Email** - This is optional as I know some people don't like sharing their email publicly, but this is great for getting in touch. If you don't want it, just make it blank `""`
+
+**Address** - Only have the city, state, and zip. You don't need to get more descriptive than this. You can also leave it off if you don't want it.
+
+**Website** - Update this to be `username.github.io`. This is where we'll be hosting your site!
+
+**Resume Download** - Upload your resume in a `.pdf` format on Google Drive and make it viewable to anyone who has the link and place it here.
+
+**Social** - Twitter is pretty big in the CS community, but you don't need to include it if you don't want. Simply delete that section of curly brackets to remove it from the site! Otherwise, fill in the `url` for LinkedIn and GitHub!
+
+**Portfolio** - This section is for projects that you have created. You don't have to fill out all four, but you should have at least one as you've had to create projects for this course. Delete any extra projects that you are utilizing. Every project should have a *title*, *category* which is essentially a one-sentence description of your project, *image* which you should upload in `public/images/portfolio` and then replace the current filename with your project image's filename, and most importantly, an *url* where people can look at your code or the live demo.
+
+**Title** - If you'd like to create the title from Portfolio, open `public/index.html` and change `<title>Portfolio</title>` to whatever text you'd like!
+
+**Other Cosmetic Edits** - If you want to change the `header-background.jpg`, simply replace the file with the file you'd like, similar to the `profilepic.jpg`. Ensure that this is a high-quality image as well. You can also change the `public/favicon.ico` with your own icon! 
+
+**Ensure that you keep the same image name!**
+
+### 3. Host Your Site
+<!-- 1. In `.package.json`, find the `homepage` field and replace `tools-trade-va-sp1` with your username.
+3. Run `npm run deploy` to send it to the link in `homepage`! -->
+1. Go to your repository settings and scroll down to **GitHub Pages**, connect it to your `master` branch, wait a couple minutes and then click the link provided!
