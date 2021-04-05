@@ -1,6 +1,6 @@
 # Final Assignment for CS 1501 Spring 2021
 
-### [LIVE DEMO](https://react-resume-template.herokuapp.com)
+### [LIVE DEMO](https://tools-trade-va-sp1.github.io/portfolio/)
 
 ## Description
 This is a ReactJS-based personal website template created by Tim Baker - [original code here](https://github.com/tbakerx/react-resume-template). No JavaScript coding is required. All you have to do is update values in `/src/resumeData.json`. Scroll down to **Make It Your Own** for more details!
