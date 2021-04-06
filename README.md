@@ -7,7 +7,7 @@ This is a ReactJS-based personal website template created by Tim Baker - [origin
 
 ## Make It Your Own
 #### 1. Set up your environment
-1. Download [Node.js](https://nodejs.org/en/download/) to run this on your local computer.
+1. Download [Node.js](https://nodejs.org/en/download/) to run this on your local computer. Node.js is a JavaScript environment. JavaScript is a language often used in web development.
 2. Click `Fork` in the top right of the screen and fork your own copy of this repository.
 2. With your own repository open (verify that it says your username in the top left), click the green `Code` button in the top right and open in GitHub Desktop.
 3. In GitHub Desktop, open this repository in Visual Studio Code.
