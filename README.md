@@ -18,7 +18,7 @@ This is a ReactJS-based personal website template created by Tim Baker - [origin
 6. To view this project on your local computer in development mode, run `npm start` and it should open in `localhost:3000`. This may take a few seconds.
 
 #### 2. Editing the Information
-1. Open `src/resumeData.json` and fill it in your information
+* Open `src/resumeData.json` and fill in your information
 
 **Name** - Enter your name, first or first and last, depending on your comfort level
 
