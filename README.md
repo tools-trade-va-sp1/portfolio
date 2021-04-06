@@ -14,8 +14,8 @@ This is a ReactJS-based personal website template created by Tim Baker - [origin
 4. Once in Visual Studio Code, open the Terminal and enter `npm --version`.
   * If a number similiar to `7.0.8` appears, you're ready for the next steps.
   * If you receive an error similar to `command not found`, make sure that you have installed [Node.js](https://nodejs.org/en/download/)
-5.  In the terminal, run `npm install` to run all the dependencies needed to run this project. This may take a few minutes.
-6. To view this project on your local computer in development mode, run `npm start` and it should open in `localhost:3000`. This may take a few seconds.
+6.  In the terminal, run `npm install` to run all the dependencies needed to run this project. This may take a few minutes.
+7. To view this project on your local computer in development mode, run `npm start` and it should open in `localhost:3000`. This may take a few seconds.
 
 #### 2. Editing the Information
 * Open `src/resumeData.json` and fill in your information
